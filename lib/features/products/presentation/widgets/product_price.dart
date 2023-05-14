@@ -19,6 +19,7 @@ class ProductPrice extends StatelessWidget {
         horizontal: AppConstants.kDefaultPadding * 1.5, // 30 padding
         vertical: AppConstants.kDefaultPadding / 4, // 5 top & 5 bottom
       ),
+      margin: const EdgeInsets.only(bottom: AppConstants.kDefaultPadding + 3),
       decoration: const BoxDecoration(
         color: AppColors.kSecondaryColor,
         borderRadius: BorderRadius.only(

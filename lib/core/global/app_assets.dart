@@ -8,7 +8,7 @@ class AppAssets {
   static const String shoppingBag = 'assets/icons/shopping-bag.svg';
 
   // images
-  static const String item1 = 'assets/images/item_1.png';
-  static const String item2 = 'assets/images/item_2.png';
-  static const String item3 = 'assets/images/item_3.png';
+  static const String item1 = 'assets/images/Item_1.png';
+  static const String item2 = 'assets/images/Item_2.png';
+  static const String item3 = 'assets/images/Item_3.png';
 }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:furniture_app/core/global/app_theme.dart';
 import 'package:furniture_app/features/products/presentation/views/products_view.dart';
 
@@ -9,7 +10,7 @@ class FurnitureApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       title: 'Furniture App',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.appTheme(context),
