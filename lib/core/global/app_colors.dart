@@ -7,4 +7,5 @@ class AppColors {
   static const Color kTextColor = Color(0xFF000839);
   static const Color kTextLightColor = Color(0xFF747474);
   static const Color kBlueColor = Color(0xFF40BAD5);
+  static Color kWhiteWithOpacity = Colors.white.withOpacity(0.4);
 }

@@ -7,5 +7,10 @@ class AppTheme {
         visualDensity: VisualDensity.adaptivePlatformDensity,
         textTheme: GoogleFonts.poppinsTextTheme(Theme.of(context).textTheme),
         primaryColor: AppColors.kPrimaryColor,
+        appBarTheme: const AppBarTheme(
+          backgroundColor: AppColors.kPrimaryColor,
+          elevation: 0,
+          centerTitle: false,
+        ),
       );
 }
