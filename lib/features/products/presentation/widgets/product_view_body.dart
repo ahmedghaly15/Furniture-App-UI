@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:furniture_app/core/global/app_constants.dart';
-import 'package:furniture_app/core/models/product.dart';
-import 'package:furniture_app/features/details/presentation/views/product_details_view.dart';
-import 'package:furniture_app/features/products/presentation/widgets/categories_tab_bar.dart';
-import 'package:furniture_app/features/products/presentation/widgets/search_box.dart';
 import 'package:get/get.dart';
 
+import '/core/global/app_constants.dart';
+import '/core/models/product.dart';
+import '/features/details/presentation/views/product_details_view.dart';
+import '/features/products/presentation/widgets/categories_tab_bar.dart';
+import '/features/products/presentation/widgets/search_box.dart';
 import 'cards_background.dart';
 import 'product_card.dart';
 

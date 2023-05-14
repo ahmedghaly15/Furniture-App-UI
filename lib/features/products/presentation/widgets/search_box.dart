@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:furniture_app/core/global/app_colors.dart';
 
 import '../../../../core/global/app_assets.dart';
 import '../../../../core/global/app_constants.dart';
 import '../../../../core/global/app_styles.dart';
+import '/core/global/app_colors.dart';
 
 class SearchBox extends StatelessWidget {
   const SearchBox({

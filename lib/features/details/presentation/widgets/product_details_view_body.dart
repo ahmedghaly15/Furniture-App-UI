@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:furniture_app/core/global/app_colors.dart';
-import 'package:furniture_app/core/global/app_constants.dart';
-import 'package:furniture_app/core/global/app_styles.dart';
-import 'package:furniture_app/core/models/product.dart';
-import 'package:furniture_app/features/details/presentation/widgets/product_poster.dart';
 
+import '/core/global/app_colors.dart';
+import '/core/global/app_constants.dart';
+import '/core/global/app_styles.dart';
+import '/core/models/product.dart';
+import '/features/details/presentation/widgets/product_poster.dart';
 import 'chat_and_add_to_cart.dart';
 import 'color_dots_list.dart';
 

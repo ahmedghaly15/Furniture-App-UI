@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:furniture_app/core/global/app_theme.dart';
-import 'package:furniture_app/features/products/presentation/views/products_view.dart';
+
+import '/core/global/app_theme.dart';
+import '/features/products/presentation/views/products_view.dart';
 
 void main() => runApp(const FurnitureApp());
 

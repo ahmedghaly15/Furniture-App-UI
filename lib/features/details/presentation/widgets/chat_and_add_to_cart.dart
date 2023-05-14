@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
-import '../../../../core/global/app_assets.dart';
-import '../../../../core/global/app_constants.dart';
-import '../../../../core/global/app_styles.dart';
+import '/core/global/app_assets.dart';
+import '/core/global/app_constants.dart';
+import '/core/global/app_styles.dart';
 
 class ChatAndAddToCart extends StatelessWidget {
   const ChatAndAddToCart({

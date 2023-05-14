@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:furniture_app/core/global/app_assets.dart';
-import 'package:furniture_app/core/global/app_colors.dart';
-import 'package:furniture_app/core/global/app_constants.dart';
-import 'package:furniture_app/core/global/app_styles.dart';
-import 'package:furniture_app/core/models/product.dart';
-import 'package:furniture_app/features/details/presentation/widgets/product_details_view_body.dart';
 import 'package:get/get.dart';
+
+import '/core/global/app_assets.dart';
+import '/core/global/app_colors.dart';
+import '/core/global/app_constants.dart';
+import '/core/global/app_styles.dart';
+import '/core/models/product.dart';
+import '/features/details/presentation/widgets/product_details_view_body.dart';
 
 class ProductDetailsView extends StatelessWidget {
   const ProductDetailsView({super.key, required this.product});
