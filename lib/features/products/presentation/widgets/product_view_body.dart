@@ -2,21 +2,21 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:furniture_app/core/global/app_constants.dart';
 import 'package:furniture_app/core/models/product.dart';
-import 'package:furniture_app/features/product/presentation/widgets/categories_tab_bar.dart';
-import 'package:furniture_app/features/product/presentation/widgets/search_box.dart';
+import 'package:furniture_app/features/products/presentation/widgets/categories_tab_bar.dart';
+import 'package:furniture_app/features/products/presentation/widgets/search_box.dart';
 
 import '../../../../core/global/app_colors.dart';
 import 'cards_background.dart';
 import 'product_card.dart';
 
-class ProductViewBody extends StatefulWidget {
-  const ProductViewBody({super.key});
+class ProductsViewBody extends StatefulWidget {
+  const ProductsViewBody({super.key});
 
   @override
-  State<ProductViewBody> createState() => _ProductViewBodyState();
+  State<ProductsViewBody> createState() => _ProductsViewBodyState();
 }
 
-class _ProductViewBodyState extends State<ProductViewBody> {
+class _ProductsViewBodyState extends State<ProductsViewBody> {
   @override
   void initState() {
     super.initState();
@@ -28,7 +28,9 @@ class _ProductViewBodyState extends State<ProductViewBody> {
   Widget build(BuildContext context) {
     return Column(
       children: <Widget>[
-        const SearchBox(),
+        SearchBox(
+          onChanged: (String value) {},
+        ),
         const CategoriesTabBar(),
         const SizedBox(
           height: AppConstants.kDefaultPadding / 2,
@@ -41,6 +43,7 @@ class _ProductViewBodyState extends State<ProductViewBody> {
                 physics: const BouncingScrollPhysics(),
                 itemCount: products.length,
                 itemBuilder: (context, index) => ProductCard(
+                  onTap: () {},
                   product: products[index],
                   itemIndex: index,
                 ),

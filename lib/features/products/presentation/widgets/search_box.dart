@@ -12,7 +12,7 @@ class SearchBox extends StatelessWidget {
     this.onChanged,
   });
 
-  final ValueChanged? onChanged;
+  final void Function(String)? onChanged;
 
   @override
   Widget build(BuildContext context) {

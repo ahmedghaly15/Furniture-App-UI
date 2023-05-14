@@ -11,12 +11,12 @@ class ProductCard extends StatelessWidget {
     super.key,
     required this.itemIndex,
     required this.product,
-    // required this.onTap,
+    required this.onTap,
   });
 
   final int itemIndex;
   final Product product;
-  // final void Function() onTap;
+  final void Function() onTap;
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +28,7 @@ class ProductCard extends StatelessWidget {
       // color: Colors.blueAccent,
       height: 160,
       child: InkWell(
-        // onTap: onTap,
+        onTap: onTap,
         child: Stack(
           children: <Widget>[
             CardOutsideBackgrounds(itemIndex: itemIndex),
