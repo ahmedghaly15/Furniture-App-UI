@@ -14,6 +14,12 @@ class AppStyles {
     fontWeight: FontWeight.w500,
     letterSpacing: 0.5,
   );
+  static const TextStyle textStyle16 = TextStyle(
+    color: Colors.white,
+    fontSize: 16,
+    fontWeight: FontWeight.bold,
+    letterSpacing: 0.5,
+  );
 
   static const TextStyle textStyle14 = TextStyle(
     color: Colors.white,
