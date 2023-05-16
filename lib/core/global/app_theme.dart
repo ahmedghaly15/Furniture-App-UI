@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:furniture_app/core/global/app_colors.dart';
+
+import 'app_colors.dart';
+import 'app_styles.dart';
 
 class AppTheme {
   static ThemeData appTheme(context) => ThemeData(
@@ -11,6 +13,7 @@ class AppTheme {
           backgroundColor: AppColors.kPrimaryColor,
           elevation: 0,
           centerTitle: false,
+          titleTextStyle: AppStyles.textStyle25,
         ),
       );
 }
